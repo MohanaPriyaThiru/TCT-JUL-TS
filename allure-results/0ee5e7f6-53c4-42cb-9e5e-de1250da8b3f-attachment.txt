@@ -1,0 +1,100 @@
+[
+  {
+    emp_name: 'Priya',
+    emp_id: 101,
+    department: 'QA',
+    project_id: 1002,
+    Project_Name: 'E-Commerce Application'
+  },
+  {
+    emp_name: 'Priya',
+    emp_id: 101,
+    department: 'QA',
+    project_id: 1001,
+    Project_Name: 'Banking Application'
+  },
+  {
+    emp_name: 'Rahul',
+    emp_id: 102,
+    department: 'QA',
+    project_id: 1008,
+    Project_Name: 'Mobile Banking'
+  },
+  {
+    emp_name: 'Rahul',
+    emp_id: 102,
+    department: 'QA',
+    project_id: 1003,
+    Project_Name: 'Banking Application'
+  },
+  {
+    emp_name: 'Arun',
+    emp_id: 103,
+    department: 'Development',
+    project_id: 1004,
+    Project_Name: 'Insurance Application'
+  },
+  {
+    emp_name: 'Divya',
+    emp_id: 104,
+    department: 'Development',
+    project_id: 1005,
+    Project_Name: 'E-Commerce Application'
+  },
+  {
+    emp_name: 'Karthik',
+    emp_id: 105,
+    department: 'HR',
+    project_id: 1006,
+    Project_Name: 'HR Portal'
+  },
+  {
+    emp_name: 'Meena',
+    emp_id: 106,
+    department: 'HR',
+    project_id: 1007,
+    Project_Name: 'Insurance Application'
+  },
+  {
+    emp_name: 'Suresh',
+    emp_id: 107,
+    department: 'QA',
+    project_id: null,
+    Project_Name: null
+  },
+  {
+    emp_name: 'Anitha',
+    emp_id: 108,
+    department: 'Development',
+    project_id: null,
+    Project_Name: null
+  },
+  {
+    emp_name: 'Vijay',
+    emp_id: 109,
+    department: 'Finance',
+    project_id: null,
+    Project_Name: null
+  },
+  {
+    emp_name: 'Sneha',
+    emp_id: 110,
+    department: 'Finance',
+    project_id: null,
+    Project_Name: null
+  },
+  {
+    emp_name: 'Ravi',
+    emp_id: 111,
+    department: 'QA',
+    project_id: null,
+    Project_Name: null
+  },
+  {
+    emp_name: 'Swetha',
+    emp_id: 112,
+    department: 'HR',
+    project_id: null,
+    Project_Name: null
+  }
+]

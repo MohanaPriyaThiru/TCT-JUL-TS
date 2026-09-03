@@ -1,0 +1,13 @@
+JWT Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjI1MTE0LCJlbWFpbCI6InRyZW5kcy4wNjIwOEBnbWFpbC5jb20iLCJpYXQiOjE3ODgyNDQwMTAsImV4cCI6MTc4ODg0ODgxMH0.0stMbWkEuR9_2frFiwhaerxvdOmVmDq9NWmlr_-DuNE
+APIResponse: 201 Created
+  Date: Tue, 01 Sep 2026 06:26:52 GMT
+  Server: Apache/2.4.52 (Ubuntu)
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+  Vary: Origin
+  Access-Control-Allow-Credentials: true
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 469
+  ETag: W/"1d5-Dhnn3hulua6+PGJAHAlKDIGmgZE"
+  Keep-Alive: timeout=5, max=100
+  Connection: Keep-Alive

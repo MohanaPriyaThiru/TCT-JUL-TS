@@ -1,0 +1,56 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e137]:
+    - generic [ref=e138]:
+      - generic [ref=e139]:
+        - generic [ref=e140]:
+          - generic [ref=e141]: RSA
+          - generic [ref=e142]: Rahul Shetty Academy
+        - generic [ref=e143]:
+          - generic [ref=e144]: eventhub.app
+          - img "EventHub app preview" [ref=e149]
+        - list [ref=e151]:
+          - listitem [ref=e152]:
+            - generic [ref=e153]: ⚡
+            - generic [ref=e154]: Live REST APIs — test real endpoints, not mocks
+          - listitem [ref=e155]:
+            - generic [ref=e156]: 🔒
+            - generic [ref=e157]: Isolated sandbox — your data, your tests, no conflicts
+          - listitem [ref=e158]:
+            - generic [ref=e159]: 🎫
+            - generic [ref=e160]: Auth, CRUD, bookings — flows you'll face on the job
+          - listitem [ref=e161]:
+            - generic [ref=e162]: 🤖
+            - generic [ref=e163]: Built for Selenium, Playwright, RestAssured & more
+      - generic [ref=e165]:
+        - paragraph [ref=e166]: 50,000+
+        - paragraph [ref=e167]: QA engineers trained worldwide
+    - generic [ref=e169]:
+      - generic [ref=e170]:
+        - 'heading "The #1 QA Practice Hub for Automation Engineers" [level=2] [ref=e171]': "The #1 QA Practice Hubfor Automation Engineers"
+        - paragraph [ref=e172]: EventHub is a production-grade practice app designed so you can sharpen your testing skills on real-world scenarios — before your next interview or project.
+      - link "API Documentation (Swagger)" [ref=e173] [cursor=pointer]:
+        - /url: https://api.eventhub.rahulshettyacademy.com/api/docs
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - heading "Sign in to EventHub" [level=1] [ref=e181]
+          - paragraph [ref=e182]: Enter your credentials to continue
+        - generic [ref=e183]:
+          - generic [ref=e184]:
+            - generic [ref=e185]: Email
+            - textbox "Email" [ref=e186]:
+              - /placeholder: you@email.com
+          - generic [ref=e187]:
+            - generic [ref=e188]: Password
+            - textbox "Password" [ref=e189]:
+              - /placeholder: ••••••
+          - button "Sign In" [ref=e190] [cursor=pointer]
+        - paragraph [ref=e191]:
+          - text: Don't have an account?
+          - link "Register" [ref=e192] [cursor=pointer]:
+            - /url: /register
+      - paragraph [ref=e193]:
+        - text: A practice environment by
+        - link "RahulShettyAcademy.com" [ref=e194] [cursor=pointer]:
+          - /url: https://rahulshettyacademy.com
+        - text: — used by QA engineers worldwide to master automation testing.
+  - alert [ref=e60]

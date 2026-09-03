@@ -1,0 +1,12 @@
+JWT Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjI1MTE0LCJlbWFpbCI6InRyZW5kcy4wNjIwOEBnbWFpbC5jb20iLCJpYXQiOjE3ODgyNDM3MDYsImV4cCI6MTc4ODg0ODUwNn0.sqGgCz2PwbvST_xCDv2CWfNIRjoRpod7__1Y9XXuDpA
+APIResponse: 400 Bad Request
+  Date: Tue, 01 Sep 2026 06:21:48 GMT
+  Server: Apache/2.4.52 (Ubuntu)
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+  Vary: Origin
+  Access-Control-Allow-Credentials: true
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 124
+  ETag: W/"7c-DivHxS7M5lcW21gon+Rhu78xCgs"
+  Connection: close

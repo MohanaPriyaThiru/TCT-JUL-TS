@@ -1,0 +1,92 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: dataDrivenTesting.spec.ts >> data driven  rahulshetty and Learning@830$3mK2
+- Location: tests\dataDrivenTesting.spec.ts:9:7
+
+# Error details
+
+```
+Error: expect(page).toHaveTitle(expected) failed
+
+Expected: "ProtoCommerce"
+Received: "LoginPage Practise | Rahul Shetty Academy"
+Timeout:  5000ms
+
+Call log:
+  - Expect "toHaveTitle" with timeout 5000ms
+    13 × locator resolved to <html>…</html>
+       - unexpected value "LoginPage Practise | Rahul Shetty Academy"
+
+```
+
+```yaml
+- link "Free Access to InterviewQues/ResumeAssistance/Material":
+  - /url: https://rahulshettyacademy.com/documents-request
+- link "Get Shortlisted by Recruiters - Take QA Skill Assessments on TechSmartHire":
+  - /url: https://techsmarthire.com/
+- heading [level=3]:
+  - img
+- text: "Username:"
+- textbox "Username:": rahulshetty
+- text: "Password:"
+- textbox "Password:": Learning@830$3mK2
+- text: Admin
+- radio "Admin" [checked]
+- text: User
+- radio "User"
+- combobox:
+  - option "Student" [selected]
+  - option "Teacher"
+  - option "Consultant"
+- checkbox "I Agree to the terms and conditions" [checked]
+- text: I Agree to the
+- link "terms and conditions":
+  - /url: "#"
+- button "Sign In"
+- paragraph: (username is rahulshettyacademy and Password is Learning@830$3mK2)
+```
+
+# Test source
+
+```ts
+  1  | import { Page, Locator, expect } from "@playwright/test";
+  2  | export class LoginPage {
+  3  |   readonly page: Page;
+  4  |   readonly username: Locator;
+  5  |   password: Locator;
+  6  |   checkboxTerms: Locator;
+  7  |   signInbtn: Locator;
+  8  |   constructor(page: Page) {
+  9  |     //Page and  locators
+  10 |     this.page = page;
+  11 |     this.username = page.getByLabel("Username:");
+  12 |     this.password = page.locator("#password");
+  13 |     this.checkboxTerms = page.locator('[name="terms"]');
+  14 |     this.signInbtn = page.getByRole("button", { name: "Sign In" });
+  15 |   }
+  16 | 
+  17 |   // reusable methods
+  18 |   async navigate(url: string, title: string) {
+  19 |     await this.page.goto(url);
+  20 | 
+  21 |     await expect(this.page).toHaveTitle(title);
+  22 |   }
+  23 |   async loginMethod(UN: string, Pwd: string) {
+  24 |     await this.username.fill(UN);
+  25 |     await this.password.fill(Pwd);
+  26 |     await this.checkboxTerms.check();
+  27 |     await this.signInbtn.click();
+  28 |   }
+  29 |   async AssertHomePage(assertTitle: string) {
+> 30 |     await expect(this.page).toHaveTitle(assertTitle);
+     |                             ^ Error: expect(page).toHaveTitle(expected) failed
+  31 |   }
+  32 | }
+  33 | 
+```

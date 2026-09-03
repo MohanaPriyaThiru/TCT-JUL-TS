@@ -1,0 +1,67 @@
+- generic [ref=e1]:
+  - generic [ref=e203]:
+    - generic [ref=e204]:
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - generic [ref=e207]: RSA
+          - generic [ref=e208]: Rahul Shetty Academy
+        - heading "Start Practising Like a Pro QA Engineer Today" [level=2] [ref=e210]: Start PractisingLike a Pro QAEngineer Today
+        - paragraph [ref=e211]: Create your free sandbox account and get instant access to a full-stack practice app with real APIs, auth flows, and booking scenarios.
+        - list [ref=e212]:
+          - listitem [ref=e213]:
+            - generic [ref=e214]: ⚡
+            - generic [ref=e215]: Live REST APIs — test real endpoints, not mocks
+          - listitem [ref=e216]:
+            - generic [ref=e217]: 🔒
+            - generic [ref=e218]: Isolated sandbox — your data, your tests, no conflicts
+          - listitem [ref=e219]:
+            - generic [ref=e220]: 🎫
+            - generic [ref=e221]: Auth, CRUD, bookings — flows you'll face on the job
+          - listitem [ref=e222]:
+            - generic [ref=e223]: 🤖
+            - generic [ref=e224]: Built for Selenium, Playwright, RestAssured & more
+        - generic [ref=e225]:
+          - link "Explore all courses at RahulShettyAcademy.com" [ref=e226] [cursor=pointer]:
+            - /url: https://rahulshettyacademy.com
+          - link "Explore Skill Assessments — QA Job Hiring Platform" [ref=e229] [cursor=pointer]:
+            - /url: https://techsmarthire.com
+          - link "API Documentation (Swagger)" [ref=e232] [cursor=pointer]:
+            - /url: https://api.eventhub.rahulshettyacademy.com/api/docs
+      - generic [ref=e236]:
+        - paragraph [ref=e237]: 50,000+
+        - paragraph [ref=e238]: QA engineers trained worldwide
+    - generic [ref=e240]:
+      - link "API Documentation (Swagger)" [ref=e241] [cursor=pointer]:
+        - /url: https://api.eventhub.rahulshettyacademy.com/api/docs
+      - generic [ref=e244]:
+        - generic [ref=e245]:
+          - heading "Create your account" [level=1] [ref=e249]
+          - paragraph [ref=e250]: Get your own EventHub sandbox
+        - generic [ref=e251]:
+          - generic [ref=e252]:
+            - generic [ref=e253]: Email
+            - textbox "you@email.com" [ref=e254]
+            - paragraph [ref=e279]: Enter a valid email
+          - generic [ref=e255]:
+            - generic [ref=e256]: Password
+            - textbox "Min 8 chars, uppercase, number & symbol" [ref=e257]
+            - list [ref=e258]:
+              - listitem [ref=e259]: At least 8 characters
+              - listitem [ref=e262]: One uppercase letter (A–Z)
+              - listitem [ref=e265]: One number (0–9)
+              - listitem [ref=e268]: One special character (!@#$%^&*…)
+            - paragraph [ref=e280]: Password does not meet the requirements below
+          - generic [ref=e271]:
+            - generic [ref=e272]: Confirm Password
+            - textbox "Repeat your password" [ref=e273]
+          - button "Create Account" [active] [ref=e274] [cursor=pointer]
+        - paragraph [ref=e275]:
+          - text: Already have an account?
+          - link "Sign in" [ref=e276] [cursor=pointer]:
+            - /url: /login
+      - paragraph [ref=e277]:
+        - text: A practice environment by
+        - link "RahulShettyAcademy.com" [ref=e278] [cursor=pointer]:
+          - /url: https://rahulshettyacademy.com
+        - text: — used by QA engineers worldwide to master automation testing.
+  - alert [ref=e60]
