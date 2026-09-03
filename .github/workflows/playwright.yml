@@ -32,7 +32,7 @@ jobs:
 
       # Install Java (needed for Allure)
       - name: Install Java
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: "temurin"
           java-version: "21"
@@ -45,7 +45,7 @@ jobs:
 
       # Run tests (don't fail pipeline)
       - name: Run Playwright tests
-        run: npx playwright test dataDrivenTesting.spec.ts
+        run: npx playwright test RSA.spec.ts
       # Install Allure CLI (official)
       - name: Install Allure CLI
         run: npm install -g allure-commandline --save-dev
