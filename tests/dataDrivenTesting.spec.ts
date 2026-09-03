@@ -11,5 +11,6 @@ for (let d of exceldata) {
     await obj.navigate(data.url, data.assertTitle);
     await obj.loginMethod(d.UserName, d.Password);
     await obj.AssertHomePage(data.assertHome);
+    console.log("DATA DRIVEN TESTING")
   });
 }
