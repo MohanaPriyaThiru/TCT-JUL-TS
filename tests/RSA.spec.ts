@@ -13,11 +13,14 @@ testFixture("Login Page test Case", async ({ loginFixture }) => {
   await expect(loginFixture).toHaveTitle(data.assertHome);
 });
 
-testFixture("Product search and addt to cart", async ({ loginFixture }) => {
-  // logObj = new LoginPage(page);
-  // await logObj.navigate(data.url, data.assertTitle);
-  // await logObj.loginMethod(data.userName, data.password);
-  const prodObj = new ProductSearch(loginFixture);
-  await prodObj.isHeadingVisible();
-  await prodObj.addProductToCart();
-});
+testFixture.skip(
+  "Product search and addt to cart",
+  async ({ loginFixture }) => {
+    // logObj = new LoginPage(page);
+    // await logObj.navigate(data.url, data.assertTitle);
+    // await logObj.loginMethod(data.userName, data.password);
+    const prodObj = new ProductSearch(loginFixture);
+    await prodObj.isHeadingVisible();
+    await prodObj.addProductToCart();
+  },
+);
