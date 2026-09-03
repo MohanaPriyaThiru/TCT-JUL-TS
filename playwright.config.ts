@@ -25,7 +25,7 @@ export default defineConfig({
   reporter: [["html"], ["dot"], ["line"], ["list"], ["allure-playwright"]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    headless: false,
+    headless: true,
     testIdAttribute: "data-testid",
     viewport: null,
     launchOptions: { args: ["--start-maximized"], channel: "msedge" },
